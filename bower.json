@@ -1,0 +1,27 @@
+{
+  "name": "ot-rich-text",
+  "main": "dist/rich-text.js",
+  "version": "2.0.0",
+  "homepage": "https://github.com/ottypes/rich-text",
+  "authors": [
+    "Jason Chen <jhchen7@gmail.com>"
+  ],
+  "description": "Format for representing rich text documents and changes.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "rich text",
+    "ot",
+    "operational transform",
+    "delta"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

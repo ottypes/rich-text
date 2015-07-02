@@ -14,6 +14,28 @@ module.exports = function (grunt) {
     'test/delta/diff.js'
   ];
 
+  grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-browserify');
+
+  grunt.initConfig({
+    clean: {
+      build: {
+        src: 'dist'
+      }
+    },
+    browserify: {
+      lib: {
+        src: 'index.js',
+        dest: 'dist/rich-text.js',
+        options: {
+          browserifyOptions: {
+            standalone: 'rich-text'
+          }
+        }
+      }
+    }
+  })
+
   grunt.registerTask('coverage', function () {
     grunt.util.spawn({
       cmd: './node_modules/.bin/istanbul',
@@ -61,4 +83,8 @@ module.exports = function (grunt) {
       opts: { stdio: 'inherit' }
     }, this.async());
   });
+
+  grunt.registerTask('build', ['clean', 'browserify']);
+
+  grunt.registerTask('default', ['coverage', 'test', 'build']);
 };

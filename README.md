@@ -56,6 +56,7 @@ This format is suitable for [Operational Transform](https://en.wikipedia.org/wik
 - [`slice`](#slice)
 - [`compose`](#compose)
 - [`transform`](#transform)
+- [`concat`](#concat)
 
 #### [Documents](#documents-1)
 

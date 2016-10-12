@@ -1,22 +1,17 @@
 {
   "name": "rich-text",
-  "version": "3.0.2",
-  "description": "Format for representing rich text documents and changes.",
+  "version": "3.1.0",
+  "description": "OT type for rich text",
   "author": "Jason Chen <jhchen7@gmail.com>",
   "homepage": "https://github.com/ottypes/rich-text",
   "main": "index.js",
   "dependencies": {
-    "deep-equal": "^1.0.1",
-    "extend": "^3.0.0",
-    "fast-diff": "^1.0.1"
+    "quill-delta": "3.1.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "coveralls": "^2.11.9",
-    "grunt": "~1.0.1",
-    "istanbul": "~0.4.3",
-    "lodash": "^4.10.0",
-    "mocha": "^2.4.5",
+    "lodash": "^4.16.4",
+    "mocha": "^3.1.2",
     "ot-fuzzer": "^1.0.0"
   },
   "engines": {
@@ -24,7 +19,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "test": "grunt test"
+    "test": "mocha test/fuzzer.js"
   },
   "repository": {
     "type": "git",
@@ -37,6 +32,6 @@
     "rich text",
     "ot",
     "operational transform",
-    "delta"
+    "sharejs"
   ]
 }

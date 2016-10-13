@@ -1,4 +1,4 @@
-# Rich Text OT Type
+# Rich Text OT Type [![Build Status](https://travis-ci.org/ottypes/rich-text.svg?branch=master)](https://travis-ci.org/ottypes/rich-text)
 
 An OT Type for rich text documents.
 

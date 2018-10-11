@@ -1,3 +1,8 @@
+## V4.0.0
+
+#### Breaking Changes
+- Update to quill-delta ^4
+
 ## v3.0.0
 
 #### Breaking Changes

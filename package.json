@@ -4,23 +4,32 @@
   "description": "OT type for rich text",
   "author": "Jason Chen <jhchen7@gmail.com>",
   "homepage": "https://github.com/ottypes/rich-text",
-  "main": "index.js",
+  "main": "dist/type.js",
   "dependencies": {
-    "quill-delta": "^3.2.0"
+    "quill-delta": "^4.1.0"
   },
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build; mocha test/fuzzer.js"
+  },
+  "files": [
+    "tsconfig.json",
+    "lib",
+    "dist"
+  ],
   "devDependencies": {
+    "@types/deep-equal": "^1.0.1",
+    "@types/extend": "^3.0.0",
     "chai": "^3.5.0",
     "lodash": "^4.16.4",
     "mocha": "^3.1.2",
-    "ot-fuzzer": "^1.0.0"
+    "ot-fuzzer": "^1.0.0",
+    "typescript": "^3.1.3"
   },
   "engines": {
     "node": ">=0.10"
   },
   "license": "MIT",
-  "scripts": {
-    "test": "mocha test/fuzzer.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ottypes/rich-text"

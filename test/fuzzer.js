@@ -1,7 +1,7 @@
 var _ = require('lodash');
 var expect = require('chai').expect;
 var fuzzer = require('ot-fuzzer');
-var richText = require('../lib/type');
+var richText = require('../dist/type');
 var Delta = richText.Delta;
 
 var FORMATS = {

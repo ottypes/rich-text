@@ -1,12 +1,12 @@
 {
   "name": "rich-text",
-  "version": "3.1.0",
+  "version": "4.0.0",
   "description": "OT type for rich text",
   "author": "Jason Chen <jhchen7@gmail.com>",
   "homepage": "https://github.com/ottypes/rich-text",
   "main": "index.js",
   "dependencies": {
-    "quill-delta": "^3.2.0"
+    "quill-delta": "^4.2.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -19,7 +19,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "test": "mocha test/fuzzer.js"
+    "test": "mocha test/fuzzer.js --timeout 5000"
   },
   "repository": {
     "type": "git",

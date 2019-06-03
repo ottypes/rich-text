@@ -1,3 +1,12 @@
+## v4.0.0
+
+#### Breaking Changes
+These were never documented as officially supported but to be safe we are doing a major version bump.
+
+- No longer works in IE8 as there is function called delete and IE8 treats that as a reserved identifier
+- The source structure has changed so those utilizing NPM's ability to import from arbitrary directories ex. import
+  DeltaOp from 'quill-delta/lib/op' will have to update their imports
+
 ## v3.0.0
 
 #### Breaking Changes

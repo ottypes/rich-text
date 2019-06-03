@@ -9,9 +9,9 @@
     "quill-delta": "^4.2.1"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
+    "chai": "^4.2.0",
     "lodash": "^4.16.4",
-    "mocha": "^3.1.2",
+    "mocha": "^6.1.4",
     "ot-fuzzer": "^1.0.0"
   },
   "engines": {

@@ -19,7 +19,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "test": "mocha test/fuzzer.js --timeout 5000"
+    "test": "mocha test/**/*.js --timeout 5000"
   },
   "repository": {
     "type": "git",

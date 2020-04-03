@@ -1,6 +1,6 @@
 {
   "name": "rich-text",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "OT type for rich text",
   "author": "Jason Chen <jhchen7@gmail.com>",
   "homepage": "https://github.com/ottypes/rich-text",

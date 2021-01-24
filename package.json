@@ -9,6 +9,7 @@
     "quill-delta": "^4.2.1"
   },
   "devDependencies": {
+    "@types/node": "^14.14.22",
     "chai": "^4.2.0",
     "lodash": "^4.17.15",
     "mocha": "^6.1.4",
